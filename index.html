@@ -15,35 +15,69 @@
   </style>
 </head>
 <body>
+<main>
+    <section>
 
-  <!-- Rating state start -->
+      <img src="images/icon-star.svg" alt="" srcset="">
+      <!-- Rating state start -->
+      <h1>How did we do?</h1>
+      <p>
+        Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!
+      </p>
+      <form>
+        <fieldset>
 
-  How did we do?
+          <legend class="sr-only"> Rate our service from 1 to 5</legend>
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+          <label>
+            <input type="radio" name="rating" value="1">
+            1
+          </label>
 
-  1 2 3 4 5
+          <label>
+            <input type="radio" name="rating" value="2">
+            2
+          </label>
 
-  Submit
+          <label>
+            <input type="radio" name="rating" value="3">
+            3
+          </label>
 
-  <!-- Rating state end -->
+          <label>
+            <input type="radio" name="rating" value="4">
+            4
+          </label>
 
-  <!-- Thank you state start -->
+          <label>
+            <input type="radio" name="rating" value="5">
+            5
+          </label>
 
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+      <!-- Rating state end -->
+    </section>
+  
+    <section>
+      <img src="images/illustration-thank-you.svg" alt="" srcset="">
+      <!-- Thank you state start -->
+      <p>You selected <span><!-- Add rating here --></span> out of 5</p>
+      <h1>Thank you!</h1>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!
+      </p>
+      <!-- Thank you state end -->
+    </section>
+</main>
 
   
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/VitorEmanoelNogueira">Vitor Nogueira</a>.
   </footer>
 </body>
 </html>
