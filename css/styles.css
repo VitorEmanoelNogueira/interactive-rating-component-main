@@ -168,6 +168,15 @@ input[type="radio"] {
     text-align: center;
   }
 
+/* State */
+.is-rated .c-rating__rating-state{
+    display: none;
+}
+
+.is-rated .c-rating__thank-you-state{
+    display: flex;
+}
+
 /* Frontend Mentor attribution */
 .attribution { font-size: 0.6875rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
