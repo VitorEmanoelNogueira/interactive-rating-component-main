@@ -22,7 +22,7 @@
       <img class="o-surface o-surface--circle" src="images/icon-star.svg" alt="">
       <!-- Rating state start -->
       <h1 class="c-rating__title">How did we do?</h1>
-      <p>
+      <p class="c-rating__paragraph">
         Please let us know how we did with your support request. All feedback is appreciated
         to help us improve our offering!
       </p>
@@ -30,30 +30,20 @@
         <fieldset class="c-rating__options">
           <legend class="sr-only"> Rate our service from 1 to 5</legend>
 
-          <label class="c-rating__option o-surface o-surface--circle">
-            <input type="radio" name="rating" value="1">
-            1
-          </label>
+          <input type="radio" name="rating" id="rating1" class="c-rating__option" value="1">
+          <label for="rating1" class="c-rating__option-button o-surface o-surface--circle">1</label>
 
-          <label class="c-rating__option o-surface o-surface--circle">
-            <input type="radio" name="rating" value="2">
-            2
-          </label>
+          <input type="radio" name="rating" id="rating2" class="c-rating__option" value="2">
+          <label for="rating2" class="c-rating__option-button o-surface o-surface--circle">2</label>
 
-          <label class="c-rating__option o-surface o-surface--circle">
-            <input type="radio" name="rating" value="3">
-            3
-          </label>
+          <input type="radio" name="rating" id="rating3" class="c-rating__option" value="3">
+          <label for="rating3" class="c-rating__option-button o-surface o-surface--circle">3</label>
 
-          <label class="c-rating__option o-surface o-surface--circle">
-            <input type="radio" name="rating" value="4">
-            4
-          </label>
+          <input type="radio" name="rating" id="rating4" class="c-rating__option" value="4">
+          <label for="rating4" class="c-rating__option-button o-surface o-surface--circle">4</label>
 
-          <label class="c-rating__option o-surface o-surface--circle">
-            <input type="radio" name="rating" value="5">
-            5
-          </label>
+          <input type="radio" name="rating" id="rating5" class="c-rating__option" value="5">
+          <label for="rating5" class="c-rating__option-button o-surface o-surface--circle">5</label>
 
         </fieldset>
         <button class="c-rating__button js-rating-button " type="submit">Submit</button>
@@ -64,9 +54,9 @@
     <section class="c-rating__thank-you-state">
       <img class="c-rating__success-image" src="images/illustration-thank-you.svg" alt="">
       <!-- Thank you state start -->
-      <p class="u-orange-text o-surface o-surface--pill">You selected <span class="js-selected-rating"><!-- Add rating here --></span> out of 5</p>
-      <h1 class="c-rating__title">Thank you!</h1>
-      <p>
+      <p class="u-orange-text o-surface o-surface--pill">You selected <span class="js-selected-rating">1<!-- Add rating here --></span> out of 5</p>
+      <h1 class="c-rating__title u-mbe-0">Thank you!</h1>
+      <p class="c-rating__paragraph u-text-centered">
         We appreciate you taking the time to give a rating. If you ever need more support,
         don’t hesitate to get in touch!
       </p>
