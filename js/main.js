@@ -6,7 +6,7 @@ const selectedRatingDisplay = ratingComponent.querySelector('.js-selected-rating
 ratingForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    let selectedRating = getSelectedRating();
+    const selectedRating = getSelectedRating();
     showThankYouMessage(selectedRating);
 })
 
